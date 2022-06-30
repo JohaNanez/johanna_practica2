@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Crear usuario PetStore" skipped="0" tests="1" time="3.3" timestamp="2022-06-30 12:50:51"><testcase name="Crear usuario"><failure message="1 expectation failed.&#10;JSON path 'type' doesn't match.&#10;Expected: &lt;Type&gt;&#10;  Actual: unknown&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path 'type' doesn't match.
+Expected: &lt;Type&gt;
+  Actual: unknown
+</failure><system-err>1 expectation failed.
+JSON path 'type' doesn't match.
+Expected: &lt;Type&gt;
+  Actual: unknown
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+com.nttdata.PetStore.CrearUsuarioStepsDefs.lambda$elTypeEs$1(CrearUsuarioStepsDefs.java:32)&#13;
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
+com.nttdata.PetStore.CrearUsuarioStepsDefs.elTypeEs(CrearUsuarioStepsDefs.java:32)&#13;
+✽.el type es "unknow"(classpath:features/crear_usuario.feature:8)&#13;
+</system-err></testcase></testsuite>
